@@ -2,25 +2,40 @@
   "Actions": [
     {
       "Icon": "images/action1.icon",
-      "Name": "Your first action",
+      "Name": "Simple",
       "States": [
         {
           "Image": "images/action1.key",
           "TitleAlignment": "middle",
-          "FontSize": "15"
+          "FontSize": "8"
         }
       ],
       "SupportedInMultiActions": false,
       "Tooltip": "",
-      "UUID": "reverse.dns.formatted.namespace.action"
+      "UUID": "dev.de.rweich.formbuildershowcase.simpleaction"
+    },
+    {
+      "Icon": "images/action1.icon",
+      "Name": "Advanced (tbd)",
+      "States": [
+        {
+          "Image": "images/action1.key",
+          "TitleAlignment": "middle",
+          "FontSize": "8"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "",
+      "UUID": "dev.de.rweich.formbuildershowcase.advancedaction"
     }
   ],
   "SDKVersion": 2,
-  "Author": "your name",
+  "Author": "rweich",
+  "Category": "Formbuilder-Showcase",
   "CodePath": "plugin.html",
   "PropertyInspectorPath": "propertyinspector.html",
-  "Name": "streamdeck template",
-  "Description": "a description",
+  "Name": "Formbuilder showcase",
+  "Description": "a plugin to show / test the abilities of the formbuilder",
   "Icon": "images/pluginIcon",
   "Version": "0.0.0-development",
   "OS": [
