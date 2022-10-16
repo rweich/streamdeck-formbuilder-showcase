@@ -16,7 +16,7 @@
     },
     {
       "Icon": "images/action1.icon",
-      "Name": "Advanced (tbd)",
+      "Name": "All inputs",
       "States": [
         {
           "Image": "images/action1.key",
@@ -26,7 +26,35 @@
       ],
       "SupportedInMultiActions": false,
       "Tooltip": "",
-      "UUID": "dev.de.rweich.formbuildershowcase.advancedaction"
+      "UUID": "dev.de.rweich.formbuildershowcase.allinputsaction"
+    },
+    {
+      "Icon": "images/action1.icon",
+      "Name": "Show / Hide fields",
+      "States": [
+        {
+          "Image": "images/action1.key",
+          "TitleAlignment": "middle",
+          "FontSize": "8"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "",
+      "UUID": "dev.de.rweich.formbuildershowcase.showandhideaction"
+    },
+    {
+      "Icon": "images/action1.icon",
+      "Name": "With details",
+      "States": [
+        {
+          "Image": "images/action1.key",
+          "TitleAlignment": "middle",
+          "FontSize": "8"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "",
+      "UUID": "dev.de.rweich.formbuildershowcase.withdetailsaction"
     }
   ],
   "SDKVersion": 2,
