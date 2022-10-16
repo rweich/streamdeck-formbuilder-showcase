@@ -12,7 +12,7 @@
       ],
       "SupportedInMultiActions": false,
       "Tooltip": "",
-      "UUID": "dev.de.rweich.formbuildershowcase.simpleaction"
+      "UUID": "de.rweich.formbuildershowcase.simpleaction"
     },
     {
       "Icon": "images/action1.icon",
@@ -26,7 +26,7 @@
       ],
       "SupportedInMultiActions": false,
       "Tooltip": "",
-      "UUID": "dev.de.rweich.formbuildershowcase.allinputsaction"
+      "UUID": "de.rweich.formbuildershowcase.allinputsaction"
     },
     {
       "Icon": "images/action1.icon",
@@ -40,7 +40,7 @@
       ],
       "SupportedInMultiActions": false,
       "Tooltip": "",
-      "UUID": "dev.de.rweich.formbuildershowcase.showandhideaction"
+      "UUID": "de.rweich.formbuildershowcase.showandhideaction"
     },
     {
       "Icon": "images/action1.icon",
@@ -54,7 +54,7 @@
       ],
       "SupportedInMultiActions": false,
       "Tooltip": "",
-      "UUID": "dev.de.rweich.formbuildershowcase.withdetailsaction"
+      "UUID": "de.rweich.formbuildershowcase.withdetailsaction"
     }
   ],
   "SDKVersion": 2,
