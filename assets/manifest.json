@@ -60,6 +60,7 @@
   "SDKVersion": 2,
   "Author": "rweich",
   "Category": "Formbuilder-Showcase",
+  "CategoryIcon": "images/action1.icon",
   "CodePath": "plugin.html",
   "PropertyInspectorPath": "propertyinspector.html",
   "Name": "Formbuilder showcase",
