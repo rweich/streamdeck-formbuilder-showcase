@@ -1,6 +1,7 @@
 import { Streamdeck } from '@rweich/streamdeck-ts';
 
 import { initAllInputsPi } from './allInputs/AllInputsPi';
+import { initAllRangesPi } from './allRanges/AllRangesPi';
 import { initShowAndHidePi } from './showAndHide/ShowAndHidePi';
 import { initSimplePi } from './simple/SimplePi';
 import { initWithDetailsPi } from './withDetails/WithDetailsPi';
@@ -16,6 +17,9 @@ pi.on('didReceiveSettings', ({ action, settings }) => {
   switch (action.split('.').pop()) {
     case 'allinputsaction':
       initAllInputsPi(pi, pi.pluginUUID, settings);
+      break;
+    case 'allrangesaction':
+      initAllRangesPi(pi, pi.pluginUUID, settings);
       break;
     case 'showandhideaction':
       initShowAndHidePi(pi, pi.pluginUUID, settings);

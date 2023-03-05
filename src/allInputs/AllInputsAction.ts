@@ -6,5 +6,5 @@ export const onNewAllInputsSettings = (plugin: Plugin, context: string, received
   const settings = isAllInputsSettings(receivedSettings) ? receivedSettings : defaultSettings;
 
   // just set the title to whatever the new values are ...
-  plugin.setTitle(`${settings.dropdown}\n${settings.text}`, context);
+  plugin.setTitle(`${settings.dropdown}\n${settings.text}\n${settings.range}`, context);
 };

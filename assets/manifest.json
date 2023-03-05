@@ -30,6 +30,20 @@
     },
     {
       "Icon": "images/action1.icon",
+      "Name": "All ranges",
+      "States": [
+        {
+          "Image": "images/action1.key",
+          "TitleAlignment": "middle",
+          "FontSize": "8"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "",
+      "UUID": "de.rweich.formbuildershowcase.allrangesaction"
+    },
+    {
+      "Icon": "images/action1.icon",
       "Name": "Show / Hide fields",
       "States": [
         {
@@ -60,6 +74,7 @@
   "SDKVersion": 2,
   "Author": "rweich",
   "Category": "Formbuilder-Showcase",
+  "CategoryIcon": "images/action1.icon",
   "CodePath": "plugin.html",
   "PropertyInspectorPath": "propertyinspector.html",
   "Name": "Formbuilder showcase",

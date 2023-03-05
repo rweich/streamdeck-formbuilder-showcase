@@ -1,6 +1,7 @@
 import { Streamdeck } from '@rweich/streamdeck-ts';
 
 import { onNewAllInputsSettings } from './allInputs/AllInputsAction';
+import { onNewAllRangesSettings } from './allRanges/AllRangesAction';
 import { onNewShowAndHideSettings } from './showAndHide/ShowAndHideAction';
 import { onNewSimpleSettings } from './simple/SimpleAction';
 import { onNewWithDetailsSettings } from './withDetails/WithDetailsAction';
@@ -12,6 +13,9 @@ plugin.on('didReceiveSettings', ({ action, context, settings }) => {
   switch (action.split('.').pop()) {
     case 'allinputsaction':
       onNewAllInputsSettings(plugin, context, settings);
+      break;
+    case 'allrangesaction':
+      onNewAllRangesSettings(plugin, context, settings);
       break;
     case 'showandhideaction':
       onNewShowAndHideSettings(plugin, context, settings);

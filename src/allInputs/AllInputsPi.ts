@@ -17,6 +17,7 @@ export const initAllInputsPi = (pi: PropertyInspector, pluginContext: string, se
       .setLabel('dropdown'),
   );
   builder.addElement('text', builder.createInput().setLabel('textfield').setPlaceholder('text'));
+  builder.addElement('range', builder.createRange(5, 83).setLabel('range').enableMinMaxLabels());
 
   // append the formbuilder (html) to the propertyinspector
   builder.appendTo(document.querySelector('.sdpi-wrapper') ?? document.body);
