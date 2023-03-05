@@ -1607,10 +1607,10 @@
     "@sinclair/typebox" "0.24.49"
     ajv "^8.6.2"
 
-"@rweich/streamdeck-formbuilder@^2.0.8":
-  version "2.0.8"
-  resolved "https://registry.yarnpkg.com/@rweich/streamdeck-formbuilder/-/streamdeck-formbuilder-2.0.8.tgz#6a2e89926eb8b7003d9d40aafde204e17bf2429e"
-  integrity sha512-2K4Cz4c8Yq+sbPDnQ1VoS/ib1Mqwui2cmAfd+A0Bowi8jvzCiT5vpupD+HcgFhv69sQ8TzscWSEJ9wK5iL3iDA==
+"@rweich/streamdeck-formbuilder@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@rweich/streamdeck-formbuilder/-/streamdeck-formbuilder-2.1.0.tgz#bbf10fac65657173b8d22d195c6fd32817838197"
+  integrity sha512-6wu++J5n8IrMPuitZJxxOtP7I1EIaqSlnypw74U9wCJh40wpp1IscvuwNIB1PARvsthUPaHZjGWC6IAsMDwcAA==
   dependencies:
     eventemitter3 "^5.0.0"
     ts-type-guards "^0.7.0"
